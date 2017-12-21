@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.loop.anish.loop.MainActivity">
+
+    <View
+        android:id="@+id/am_background_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@color/light_blue" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/am_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.loop.anish.loop.view.SnapTabsView
+        android:id="@+id/am_snap_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"/>
+
+</RelativeLayout>
